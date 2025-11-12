@@ -89,27 +89,27 @@ Go to:
 
 🧪 Example Input
 Feature	Value
-Age	63
-Sex	1
-CP	1
-Trestbps	150
-Chol	260
-FBS	1
-Restecg	0
-Thalach	112
-Exang	1
-Oldpeak	3.5
-Slope	0
-CA	2
-Thal	2
+Age	63,
+Sex	1,
+CP	1,
+Trestbps	150,
+Chol	260,
+FBS	1,
+Restecg	0,
+Thalach	112,
+Exang	1,
+Oldpeak	3,
+Slope	0,
+CA	2,
+Thal	2,
 
 ✅ Expected Output: Heart Disease Detected
 
 📦 Requirements
-flask
-numpy
-pandas
-scikit-learn==1.7.2
-xgboost
-gunicorn
+flask,
+numpy,
+pandas,
+scikit-learn==1.7.2,
+xgboost,
+gunicorn.
 
